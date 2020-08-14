@@ -68,6 +68,7 @@
     }
     .vender{
         overflow: hidden;
+       display: none;
     }
     #segunda{
         width: 100%;
