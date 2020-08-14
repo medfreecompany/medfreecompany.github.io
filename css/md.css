@@ -68,11 +68,12 @@
     }
     .vender{
         overflow: hidden;
-       display: none;
+        display: none;
     }
     #segunda{
         width: 100%;
         height: auto;
+        display: none;
     }
     #botondos{
         width: 100%;
