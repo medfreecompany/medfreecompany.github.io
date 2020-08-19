@@ -1,0 +1,395 @@
+@font-face{
+    font-family: 'titulo';
+    src: url(../font/FredokaOne-Regular.ttf);
+}
+@font-face{
+    font-family: 'texto';
+    src: url(../font/Mali-ExtraLightItalic.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}                                                 /*BARRA SUPERIOR (LOGO TITULO Y SELECCION)*/
+#nombre:hover{
+    color: #000;
+}
+#cabecera{
+    background-color:#3dc7c7;
+    width: 20%;
+    height: auto;
+    position: fixed;
+    display: block;
+    font-family: 'titulo';
+    top:0;
+    left: 0;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #fff;
+    z-index: 10;
+}
+    #logotipo{
+        display: inline-block;
+        width: 50px;
+        margin-left:50px;
+        vertical-align: middle;
+    }
+    #nombre{
+        display: inline-block;
+        font-size: 3rem;
+        color: #fff;
+        vertical-align: middle;
+        margin-left: 30px;
+    }
+.imagenInicio{
+    width: 100%;
+    position: relative;
+    top: 75px;
+    height: 600px;
+    margin-bottom: 75px;
+    z-index: 0;
+}
+.primeraParte{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.primeraParte div{
+    width: 47%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+.primeraParte div h1{
+    text-align: center;
+    font-family: 'titulo';
+    font-size: 40px;
+    border-bottom: 5px solid #8ad12c;
+}
+.primeraParte div p{
+    border-bottom: 5px solid #8ad12c;
+    margin-top: 15px;
+    font-family: 'texto';
+    color: #000;
+    text-align: left;
+}
+.primeraParte div p, .primeraParte div h1{
+    box-shadow: 10px 10px 10px rgb(110, 112, 112);
+    border-left: 5px solid #8ad12c;
+    border-radius: 20px;
+    padding: 10px;
+    width: 50%;
+    margin-left: 45%;
+}
+.primeraParte img{
+    display: block;
+    width: 60%;
+    position: relative;
+    bottom: 20px;
+    margin: 0 auto;
+}
+.boton{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-family: 'titulo';
+    border-radius: 10px;
+    padding: 10px 15%;
+    background-color: #8ad12c;
+}
+.boton:hover, .primeraParte img:hover{
+    border: 3px dashed #0a688d;
+}
+#botondos{
+    width: 30%;
+    text-decoration: none;
+    position: relative;
+    bottom: 50px;
+    left: 80px;
+    font-size: 20px;
+    padding: 10px 0;
+    background-color: aqua;
+}
+#botondos:hover{
+    border: 3px dashed #d13a2c;
+}
+/*Productos*/
+.productos{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/muchosmed2.jpeg);
+    background-size: 100%;
+    background-attachment: fixed;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'titulo';
+}
+.productos h1{
+    color: #5d0a8d;
+    background-color: #3dc7c718;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 60px;
+    -webkit-text-fill-color: #21c3c3;
+    -webkit-text-stroke: 2px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.pord{
+    display: inline-block;
+    width: 20%;
+    height: 280px;
+    margin: 20px 4%;
+    background-color: #6fc2d178;
+    margin-bottom: 50px;
+    border: 2px solid #032f2d;
+    border-radius: 20px;
+    overflow: hidden;
+    color: #000;
+}
+.pord:hover{
+    box-shadow: 10px 10px 10px rgb(85, 218, 211);
+    border: 5px solid rgb(1, 200, 184);
+}
+.pord img{
+    width: 100%;
+    height: 200px;
+}
+.pord h2{
+    display: block;
+    margin-top: 10px;
+}
+.pord a{
+    display: block;
+    text-decoration: none;
+    border: 1px solid #3dc7c7;
+    padding: 5px;
+    font-size: 10px;
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 10px;
+    background-color:#6fc2d1b7;
+    color: #000;
+}
+.pord a{
+    text-decoration: none;
+    color: #000;
+}
+.vender{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin-top: 20px;
+}
+.vender img{
+    width: 30%;
+    height: 500px;
+}
+#primera{
+    position: relative;
+    right: 150px;
+    height: 80%;
+    vertical-align: top;
+    border-bottom-left-radius:70%;
+    border-bottom-right-radius:70%;
+    border: 5px solid #8d0a3c;
+    box-shadow: 10px 10px 10px #811225;
+}
+
+#segunda{
+    width: auto;
+    border-radius: 30px;
+    border: 5px solid #0a688d;
+    box-shadow: 10px 10px 10px #127681;
+}
+.dinero{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dinero:hover{
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    background-color: bisque;
+    box-shadow: 10px 10px 10px #000;
+}
+.dinero h1{
+    font-size: 4rem;
+    font-family: 'titulo';
+}
+.dinero div{
+    display: block;
+}
+.dinero div img{
+    position: relative;
+    bottom: 30px;
+}
+.dinero div img, .dinero div p{
+    display: inline-block;
+    font-family: 'texto';
+    font-size: 25px;
+    text-align: left;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+#botontres{
+    width: 50%;
+    text-decoration: none;
+    padding: 10px 0;
+    background-color: #bb4646;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 40%;
+    margin-bottom: 50px;
+}
+#botontres:hover{
+    border: 3px dashed #000;
+    color: #000;
+}
+#ultima{
+    margin-top: 20px;
+    width: 100%;
+    border-top: 5px dashed #8ad12c;
+    border-bottom: 5px dashed #8ad12c;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 20px 20px 20px #8ad12caf;
+}
+                                                        /*PARTE INFERIOR (COPYRIGTH AVISO DE PRIVACIDAD Y REDES SOCIALES)*/
+footer{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color:#3dc7c7;
+}
+    .textoFooter{
+        width: 70%;
+        display: inline-block;
+        text-align: center;
+    }
+        .textoFooter h3, .textoFooter a{
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            font-size: 2rem;
+            margin: 0 20px;
+            vertical-align: middle;
+        }
+        .textoFooter a:hover{
+            color: #000;
+        }
+    .redesSociales{
+        width: 25%;
+        display: inline-block;
+    }
+        .redesSociales img{
+            width: 40px;
+            margin: 0 10px; 
+            vertical-align: middle;
+            display: inline-block;
+        }
+        /*Login*/
+#login{
+    display: block;
+    position: fixed;
+    background-color:#3dc7c7;
+    top: 0;
+    right: 0;
+    font-family: 'titulo';
+    border-bottom-left-radius: 20px;
+    box-shadow: 5px 5px 5px #fff;
+    z-index: 10;
+}
+#login a{
+    display: inline-block;
+    font-size: 3rem;
+    color: #fff;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+    #login a:hover{
+        color: #000;
+    }
+#titulo{
+    font-size: 4rem;
+    width: 30%;
+    margin-left: 35%;
+    margin-top:30px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'titulo';
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 0px rgb(231, 228, 43);
+}
+#pildoras{
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 45%;
+    display: inline-block;
+    position: relative;
+    top: -200px;
+    text-align: center;
+}
+       
+.registroDatos{
+    width: 45%;
+    margin-left: 5%;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    text-align: center;
+}
+.registroDatos #espacioRegistro{
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+}
+#espacioRegistro label, #espacioRegistro input{
+    display: block;
+}
+#espacioRegistro input{
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 5px;
+}
+#seleccionNotificaciones{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+#seleccion{
+    display: block;
+}
+#seleccionNotificaciones input{
+    position: relative;
+    top: -10px;
+}
+#seleccionNotificaciones input, #seleccionNotificaciones p{
+    display: inline-block;
+}
+#registrar{
+    width: 45%;
+}
+#iniciar{
+    width: 100%;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+#btnRegistrar{
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #baf371;
+    position: relative;
+    top: 25px;
+}
+                                                      
+                                                                                      
