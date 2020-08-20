@@ -17,6 +17,9 @@ html{
 #nombre:hover{
     color: #000;
 }
+.titulosquitar{
+    display:none;
+}
 #cabecera{
     background-color:#3dc7c7;
     width: 20%;
